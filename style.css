@@ -22,6 +22,16 @@ body{
     margin: 0 auto;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 33px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: blue;
+}
+
 .flex{
     display: flex;
 }
@@ -116,3 +126,39 @@ section.topodosite.flex{
         top:30px ;
     }
 }
+
+/* Estilo especialidades */
+
+section.especialdiades {
+    padding: 40px 4%;
+}
+
+section.especialdiades .flex{ /* separação da DIV*/
+    gap: 60px;
+}
+
+.especialidades .especialidadesbox { /* configuração de todos os elementos dentro da div */
+    color: white;
+    padding: 40px;
+    
+    border-radius: 20px;
+    margin-top: 45px ;
+    transform: .2;
+}
+
+.especialidades .especialidadesbox:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #ffffff6c;  
+}
+
+.especialidades .especialidadesbox i {/* configuração do icones */
+    font-size: 48px;
+    color: blue;
+
+}
+
+.especialidades .especialidadesbox h3 {
+    font-size: 28px;
+    margin: 15px 0px;
+}
+
