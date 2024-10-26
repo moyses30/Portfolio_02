@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
     --font : 'Beba Neue', sans-serif ;
+    --cor1:#23A7CF;
+    --cor2:#378BA5;
+    --cor4:#00C1FA;
+    --cor5:#3D6C7A;
+    --cor6:#354A50;
 }
 
 /*Estilo geral */
@@ -13,7 +18,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(27, 24, 24);
     height: 100vh;
 }
 
@@ -204,4 +209,60 @@ section.sobre .flex {
     cursor: pointer;
     margin: 0 5px;
     transition: .2s;
+}
+
+.imgsobre > img {
+    border-radius: 40px;
+}
+
+/* Estilo portifolio */
+
+section.portifolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px ;
+}
+
+section.portifolio .flex {
+    gap: 80px; /* Espaço para as DIV*/
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.imgport{
+    width: 360px;
+    height: 460px;
+    background-color:rgb(37, 37, 175);
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+
+}
+
+.imgport:hover{
+    background-position: 100% 100%;
+
+}
+
+.orverlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    height: 100% ;
+    background-color: rgba(5, 5, 19, 0.61);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.orverlay:hover {
+   opacity: 1; 
 }
