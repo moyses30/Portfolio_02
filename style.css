@@ -293,18 +293,24 @@ form input, form textarea{
     outline: 0;
     padding: 20px 15px;
     border-radius: 15px;
-    color: #fff;
+    color: white;
     font-size: 18px;
-    margin-top: 40px;
+    
 }
 
 form input::placeholder {
-    color: blue;
+    color: white;
 }
 
 form textarea{
     resize: none;
-    max-height: 500px ;
+    max-height: 1000px;
+   
+    color: #fff;
+}
+
+form textarea::placeholder {
+    color: #fff;
 }
 
 form .btnenviar {
