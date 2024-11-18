@@ -202,7 +202,7 @@ section.sobre .flex {
     text-align: justify;
 }
 
-.sobre .txtsobre .btnsocial button{
+ .btnsocial button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -278,7 +278,7 @@ section.formulario {
 
 form{
     max-width: 560px; /*largura maxima do formulario */
-    margin:0 auto ;
+    margin:20px auto ;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -325,4 +325,30 @@ form .btnenviar input {
     font-weight: 700px;
     cursor: pointer;
     transition: .2s;
+}
+
+/* Estilo rodape */
+
+footer {
+    padding: 40px 4% ;
+    box-shadow: 0 0 40px 10px rgba(129, 127, 127, 0.361);
+}
+
+footer .flex {
+    justify-content: space-between;
+
+}
+
+footer .line-footer{
+    padding: 20px 0px ;
+    border-bottom: 2px solid blue;
+}
+
+footer .line-footer p i {
+    color: blue;
+    font-size: 22px;
+}
+
+footer .line-footer a {
+    color: white;
 }
