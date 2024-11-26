@@ -4,10 +4,10 @@
     $telefone = addslashes ($_POST['telefone']);
     $mensagem = addslashes ($_POST['mensagem']);
 
-    $para = "moysesjosef@gmail.com"  ;
-    $assunto = "coleta de dados- Portfolio " ;
+    $para = "moysesjosef@gmail.com";
+    $assunto = "coleta de dados- Portfolio ";
 
-    $corpo = "Nome:". $nome."\n"."email".$email."\n" ;
+    $corpo = "Nome:". $nome."\n"."email".$email."\n";
 
     $cabeca= "from: moysesvalgore@gmail.com"."\n"."Reply-to:".$email."\n"."X=Mailer:PHP/".phpversion();
 
