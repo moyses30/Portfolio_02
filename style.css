@@ -354,7 +354,14 @@ footer .line-footer a {
 }
 
 @media screen and (max-width :1020px) {
-    .menu-desktop{
+    /*Classe flex */
+
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    /*cabeçalho*/
+    .menu-desktop, .bnt-contato{
         display: none;
     }
 }
