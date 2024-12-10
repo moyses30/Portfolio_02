@@ -357,11 +357,43 @@ footer .line-footer a {
     /*Classe flex */
 
     .flex {
-        flex-direction: column-reverse;
+        flex-direction: column-reverse; /* inversão */
     }
 
     /*cabeçalho*/
     .menu-desktop, .bnt-contato{
         display: none;
     }
+
+    /* Top do site */
+    .topodosite .txttoposite h1{
+        
+        font-size:  34px;
+        line-height: 40px;
+    }
+
+    .topodosite .txttoposite {
+        padding: 20px 8% ; 
+    }
+
+    section .especialdiades {
+        padding: 40px 8% ;
+    }   
+
+    .sobre .txtsobre h2 {
+        font-size: 30px;   
+        line-height: 40px;
+        
+        text-align: center;
+    }
+
+    footer .flex {
+        text-align: center;
+    }
+    
+
+    
+    
+
+   
 }
