@@ -421,6 +421,7 @@ footer {
 
 footer .flex {
     justify-content: space-between;
+    
 
 }
 
@@ -437,6 +438,18 @@ footer .line-footer p i {
 footer .line-footer a {
     color: white;
 }
+
+.reservado{
+    padding: 10px 10%;
+    margin-top: 30px;
+    color: #fff;
+    display: block; /* centralizar um div*/
+    text-align: center;/*centralizar intem*/
+}
+ 
+    
+
+
 
 @media screen and (max-width :1020px) {
     /*Classe flex */
