@@ -387,7 +387,7 @@ form input, form textarea{
 }
 
 form input::placeholder {
-    color: rgba(255, 255, 255, 0.911);
+    color: rgba(255, 255, 255, 0.575);
 }
 
 form textarea{
@@ -398,7 +398,7 @@ form textarea{
 }
 
 form textarea::placeholder {
-    color: #fff;
+    color: #ffffff8f;
 }
 
 form .btnenviar {
@@ -450,7 +450,7 @@ footer .line-footer a {
     text-align: center;/*centralizar intem*/
 }
  
-    
+
 
 
 
