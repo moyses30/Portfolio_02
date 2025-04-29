@@ -358,6 +358,8 @@ section.portifolio .flex {
    opacity: 1; 
 }
 
+
+
 /* ESTILO DO FORMULARIO DE CONTATO */
 
 section.formulario {
@@ -473,6 +475,11 @@ footer .line-footer a {
         line-height: 40px;
     }
 
+    .imagtoposite{
+        align-items: center;
+        text-align: center;
+    }
+
     .topodosite .txttoposite {
         padding: 20px 8% ; 
     }
@@ -490,6 +497,11 @@ footer .line-footer a {
 
     footer .flex {
         text-align: center;
+    }
+
+    .portifolio .flex {
+        flex-direction: column;
+        align-items: center;
     }
     
     /*ROdape*/
